@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Portifólio</title>
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox"  id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#meus_projetos">Projetos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h1>Rita Nascimento</h1>
+        <h2>Fullstack Developer</h2>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/rita-de-cássia-leite-nascimento-27622a231" target="_blank">Linkedin</a>
+            <a href="https://github.com/RiNascDev" target="_blank">Github1</a>
+            <a href="https://github.com/DevIngrid" target="_blank">Github2</a>
+        </div>
+    </header>
+    <main class="container" id = "meus_projetos">
+        <div class="card-container">
+            <div class="card-text">
+               No projeto DSMovie desenvolvi uma busca de filmes no banco de dados e a classificação de cada filme expressada com estrelinhas. 
+               Backend foi desenvolvido na linguagem Java usando
+               Springboot e Frontend com Typescript e React.
+            </div>
+            <div class="card" id="DSMovie">
+                <div class="card-wrapper">
+                    <h2>DSMovie</h2>
+                    <p>Catálogo de filmes</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>DSClientes</h2>
+                    <p style="color: rgb(109, 109, 109);">Catálogo de clientes</p>
+                </div>
+            </div>
+             <div class="card-text">
+                No projeto DSClientes desenvolvi uma API Rest com um CRUD completo de clientes na linguagem Java usando Springboot.
+                É um projeto exclusivamente de Backend voltado para aprendizado da linguagem Java. 
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card-text">
+                No projeto Games desenvolvi um sistema para pesquisa de games onde usuários votam no 
+                seu game favorido usando a aplicação mobile desenvolvido com Typescript e React Native e envia para a aplicação Web desenvolvida 
+                com Typescript e React no Frontend e Java com Springboot no Backend.
+            </div>
+            <div class="card" id = "gamer">
+                <div class="card-wrapper">
+                    <h2>Games</h2>
+                    <p>Pesquisa de games</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        Feito durante o Bootcamp TQIFullstackDeveloper
+    </footer>
+</body>
+</html>
